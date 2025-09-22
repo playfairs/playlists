@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     playlistsContainer.innerHTML = '<div class="loading">Loading playlists...</div>';
 
-    fetch('./playlist.json')
+    fetch('./src/playlist.json')
         .then(response => {
             console.log('Response status:', response.status);
             if (!response.ok) {

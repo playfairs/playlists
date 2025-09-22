@@ -106,7 +106,7 @@ header h1 {
 
 .playlist-info {
     padding: 0.01rem 0.9rem;
-    margin: -0.25rem 1rem;
+    margin: -1.3rem -0.4rem;
     border-bottom: 0.25px solid rgba(255, 255, 255, 0.1);
     display: grid;
     grid-template-columns: 1fr auto;

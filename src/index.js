@@ -48,6 +48,16 @@ document.addEventListener('DOMContentLoaded', () => {
             return acc;
         }, {});
 
+        Object.values(playlistsByType).forEach(typePlaylists => {
+            typePlaylists.sort((a, b) => {
+                return a.name.localeCompare(b.name, undefined, {
+                    sensitivity: 'base',
+                    ignorePunctuation: true,
+                    numeric: true
+                });
+            });
+        });
+
         playlistsContainer.innerHTML = '';
 
         const getSectionTitle = (type) => {

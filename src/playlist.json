@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Indie pop / bedroom pop / lo-fi pop / melodic pop / retro / soft rock / alternative pop",
+        "type": "spotify",
+        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/5QSSpDfYrWlYLfOHy97ecR?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+    },
+    {
+        "name": "hyperpop / digicore / trap / internet rap / glitchcore",
+        "type": "spotify",
+        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6CPLRBKmUIiGrVrf9hbuYn?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+    },
+    {
+        "name": "jumpstyle / scenecore / hardstyle / krushfunk / donk / eurodance / sped-up",
+        "type": "apple-music",
+        "embed": "<iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"450\" style=\"width:100%;max-width:660px;overflow:hidden;background:transparent;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/us/playlist/jumpstyle-scenecore-hardstyle-krushfunk-donk-eurodance/pl.u-pMyl15viWz7M9DV\"></iframe>"
+    },
+    {
+        "name": "RAGE RAP / DARKPLUGG / UNDERGROUND HIP HOP / INTERNET RAP / HIP HOP / RAP",
+        "type": "spotify",
+        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3YI31i99BAJ8BVKUFCAguk?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+    },
+    {
+        "name": "x",
+        "type": "spotify",
+        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3H02Sd7T8xo5I6w5mONk9F?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+    },
+    {
+        "name": "rock / hard rock / classic rock / metal / arena ",
+        "type": "spotify",
+        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3PRZQ0ZNfZRnqrqoodt6mG?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+    },
+    {
+        "name": "horrorcore / dark trap / industrial rap / underground / memphis / witch house / punk metal",
+        "type": "spotify",
+        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/11CKl3zIwPJsbflyoaBMq3?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+    }
+]

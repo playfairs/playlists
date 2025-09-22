@@ -1,0 +1,204 @@
+:root {
+    --primary-color: #1DB954;
+    --apple-music-color: #f0233b;
+    --background-color: #121212;
+    --surface-color: #181818;
+    --text-primary: #ffffff;
+    --text-secondary: #b3b3b3;
+    --spacing-unit: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-primary);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header {
+    background-color: #000000;
+    padding: 0.25rem 0;
+    margin: 0;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-align: center;
+    margin: 0;
+    padding: 0.25rem 0;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.section-title[data-type="apple-music"] {
+    color: #f0233b !important;
+    border-bottom-color: #f0233b !important;
+}
+
+.section-title[data-type="spotify"] {
+    color: #1DB954 !important;
+    border-bottom-color: #1DB954 !important;
+}
+
+.playlists-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.playlists-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.playlist-card {
+    background: var(--surface-color);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.playlist-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.playlist-embed {
+    width: 100%;
+    min-height: 352px;
+    border: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.playlist-embed iframe {
+    border-radius: 0 0 8px 8px;
+}
+
+.playlist-info {
+    padding: 0.01rem 0.9rem;
+    margin: -0.25rem 1rem;
+    border-bottom: 0.25px solid rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.25rem;
+    align-items: center;
+}
+
+.playlist-name {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0;
+    color: var(--text-primary);
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0; /* Allows the text to be truncated */
+}
+
+.playlist-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: none;
+    border: none;
+    transition: transform 0.2s ease;
+    height: 100px;
+    width: 100px;
+    border-radius: 4px;
+    overflow: visible;
+}
+
+.playlist-link:hover {
+    transform: scale(1.1);
+    background: none;
+}
+
+.streaming-logo {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.playlist-link[data-type="spotify"] .streaming-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.playlist-link[data-type="apple-music"] .streaming-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.playlist-info {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1.5rem 0;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .playlists-section {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+    
+    header h1 {
+        font-size: 1.25rem;
+    }
+    
+    .section-title {
+        font-size: 1.2rem;
+    }
+}
+
+/* Loading and error states */
+.loading, .error, .no-playlists {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+.error {
+    color: #ff6b6b;
+}

@@ -55,6 +55,9 @@ header h1 {
     padding-bottom: 0.5rem;
     border-bottom: 2px solid var(--primary-color);
     color: var(--primary-color);
+    position: sticky;
+    top: 48px;
+    background: #121212;
 }
 
 .section-title[data-type="apple-music"] {
@@ -95,7 +98,7 @@ header h1 {
 
 .playlist-embed {
     width: 100%;
-    min-height: 352px;
+    min-height: 350px;
     border: none;
     border-radius: 0 0 8px 8px;
 }
@@ -106,7 +109,7 @@ header h1 {
 
 .playlist-info {
     padding: 0.01rem 0.9rem;
-    margin: -1.3rem -0.4rem;
+    margin: -1.3rem 0.2rem;
     border-bottom: 0.25px solid rgba(255, 255, 255, 0.1);
     display: grid;
     grid-template-columns: 1fr auto;

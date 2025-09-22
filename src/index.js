@@ -5,14 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     fetch('./src/playlist.json')
         .then(response => {
-            console.log('Response status:', response.status);
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             return response.json();
         })
         .then(playlists => {
-            console.log('Playlists loaded successfully:', playlists);
             if (!Array.isArray(playlists)) {
                 throw new Error('Invalid playlist data: expected an array');
             }
@@ -38,9 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const type = (playlist.type && typeof playlist.type === 'string') ? 
                     playlist.type.toLowerCase() : 'other';
                 
-                if (!acc[type]) {
-                    acc[type] = [];
-                }
+                if (!acc[type]) acc[type] = [];
                 acc[type].push(playlist);
             } catch (error) {
                 console.error('Error processing playlist:', playlist, error);
@@ -49,13 +45,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }, {});
 
         Object.values(playlistsByType).forEach(typePlaylists => {
-            typePlaylists.sort((a, b) => {
-                return a.name.localeCompare(b.name, undefined, {
-                    sensitivity: 'base',
-                    ignorePunctuation: true,
-                    numeric: true
-                });
-            });
+            typePlaylists.sort((a, b) => a.name.localeCompare(b.name, undefined, {
+                sensitivity: 'base',
+                ignorePunctuation: true,
+                numeric: true
+            }));
         });
 
         playlistsContainer.innerHTML = '';
@@ -72,6 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
         Object.entries(playlistsByType).forEach(([type, typePlaylists]) => {
             if (!typePlaylists || typePlaylists.length === 0) return;
             
+            const sectionId = `section-${type}`;
+            
             const sectionTitle = document.createElement('h2');
             sectionTitle.className = 'section-title';
             sectionTitle.textContent = getSectionTitle(type);
@@ -79,11 +75,11 @@ document.addEventListener('DOMContentLoaded', () => {
             sectionTitle.role = 'button';
             sectionTitle.tabIndex = 0;
             sectionTitle.setAttribute('aria-expanded', 'true');
-            sectionTitle.setAttribute('aria-controls', `section-${type}`);
+            sectionTitle.setAttribute('aria-controls', sectionId);
             
             sectionTitle.addEventListener('click', toggleSection);
             sectionTitle.addEventListener('keydown', (e) => {
-                if (e.key === 'Enter' || e.key === ' ') {
+                if (['Enter', ' '].includes(e.key)) {
                     e.preventDefault();
                     toggleSection.call(sectionTitle);
                 }
@@ -92,51 +88,79 @@ document.addEventListener('DOMContentLoaded', () => {
             playlistsContainer.appendChild(sectionTitle);
             
             const sectionContainer = document.createElement('div');
+            sectionContainer.id = sectionId;
             sectionContainer.className = 'playlists-section';
-            sectionContainer.id = `section-${type}`;
             sectionContainer.dataset.type = type;
             
-            sectionContainer.innerHTML = typePlaylists
-                .filter(playlist => playlist.embed)
-                .map(playlist => {
-                    const urlMatch = playlist.embed.match(/src=["']([^"']+)["']/);
-                    const url = urlMatch ? urlMatch[1] : '#';
-                    const isSpotify = playlist.type === 'spotify';
-                    const logoPath = isSpotify ? '../assets/spotify-button.png' : '../assets/apple-music.png';
-                    const altText = isSpotify ? 'Open in Spotify' : 'Open in Apple Music';
-                    
-                    return `
-                        <div class="playlist-card">
-                            <div class="playlist-info">
-                                <h3 class="playlist-name" title="${playlist.name}">
-                                    ${playlist.name || 'Untitled Playlist'}
-                                </h3>
-                                <a href="${url}" target="_blank" rel="noopener noreferrer" class="playlist-link" data-type="${playlist.type}">
-                                    <img src="${logoPath}" alt="${altText}" class="streaming-logo">
-                                </a>
-                            </div>
-                            <div class="playlist-embed">
-                                ${playlist.embed}
-                            </div>
-                        </div>
-                    `;
-                })
-                .join('');
+            sectionContainer.innerHTML = typePlaylists.map(playlist => `
+                <div class="playlist-card" data-embed="${encodeURIComponent(playlist.embed)}">
+                    <div class="playlist-info">
+                        <h3 class="playlist-name" title="${playlist.name}">
+                            ${playlist.name || 'Untitled Playlist'}
+                        </h3>
+                        <a href="${getPlaylistUrl(playlist.embed)}" target="_blank" 
+                           rel="noopener noreferrer" class="playlist-link" data-type="${playlist.type}">
+                            <img src="${getLogoPath(playlist.type)}" 
+                                 alt="Open in ${playlist.type === 'spotify' ? 'Spotify' : 'Apple Music'}" 
+                                 class="streaming-logo">
+                        </a>
+                    </div>
+                    <div class="playlist-embed-placeholder"></div>
+                </div>
+            `).join('');
             
-            if (sectionContainer.innerHTML.trim() !== '') {
-                playlistsContainer.appendChild(sectionContainer);
-            }
-        });
-        if (playlistsContainer.innerHTML.trim() === '') {
-            playlistsContainer.innerHTML = '<div class="no-playlists">No valid playlists found.</div>';
-            return;
-        }
+            playlistsContainer.appendChild(sectionContainer);
 
-        const iframes = document.querySelectorAll('iframe');
-        iframes.forEach(iframe => {
-            if (!iframe.getAttribute('width') || !iframe.getAttribute('height')) {
-                iframe.setAttribute('width', '100%');
-                iframe.setAttribute('height', iframe.closest('[data-type="apple-music"]') ? '450' : '352');
+            setTimeout(() => {
+                loadVisibleEmbeds(sectionContainer);
+            }, 0);
+        });
+        setupIntersectionObserver();
+    }
+
+    function getLogoPath(type) {
+        return type === 'spotify' ? 
+            '../assets/spotify-button.png' : 
+            '../assets/apple-music.png';
+    }
+
+    function getPlaylistUrl(embed) {
+        const urlMatch = embed.match(/src=["']([^"']+)["']/);
+        return urlMatch ? urlMatch[1] : '#';
+    }
+
+    function setupIntersectionObserver() {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const placeholder = entry.target;
+                    const playlistCard = placeholder.closest('.playlist-card');
+                    const embedHtml = decodeURIComponent(playlistCard.dataset.embed);
+                    placeholder.outerHTML = `<div class="playlist-embed">${embedHtml}</div>`;
+                    observer.unobserve(placeholder);
+                }
+            });
+        }, {
+            rootMargin: '200px',
+            threshold: 0.1
+        });
+
+        document.querySelectorAll('.playlist-embed-placeholder').forEach(placeholder => {
+            observer.observe(placeholder);
+        });
+    }
+
+    function loadVisibleEmbeds(container) {
+        const placeholders = container ? 
+            container.querySelectorAll('.playlist-embed-placeholder') : 
+            document.querySelectorAll('.playlist-embed-placeholder');
+        
+        placeholders.forEach(placeholder => {
+            const rect = placeholder.getBoundingClientRect();
+            if (rect.top < window.innerHeight + 200 && rect.bottom > -200) {
+                const playlistCard = placeholder.closest('.playlist-card');
+                const embedHtml = decodeURIComponent(playlistCard.dataset.embed);
+                placeholder.outerHTML = `<div class="playlist-embed">${embedHtml}</div>`;
             }
         });
     }
@@ -154,8 +178,8 @@ document.addEventListener('DOMContentLoaded', () => {
             
             if (!isExpanded) {
                 section.style.visibility = 'visible';
+                setTimeout(() => loadVisibleEmbeds(section), 50);
             } else {
-                
                 section.addEventListener('transitionend', function handler() {
                     if (section.classList.contains('collapsed')) {
                         section.style.visibility = 'hidden';

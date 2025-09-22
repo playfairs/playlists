@@ -68,5 +68,15 @@
         "name": "black ppl music part 3",
         "type": "spotify",
         "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6uhF53u0fHk138OWd7kR87?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+    },
+    {
+        "name": "bunderground / dark trap / horrorcore",
+        "type": "apple-music",
+        "embed": "<iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"450\" style=\"width:100%;max-width:660px;overflow:hidden;background:transparent;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/us/playlist/underground-dark-trap-horrorcore/pl.u-55D6X4VH6jRGqbK\"></iframe>"
+    },
+    {
+        "name": "japanese type shit",
+        "type": "spotify",
+        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/17gdqcqm77l7mHbo5Fq5dT?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
     }
 ]

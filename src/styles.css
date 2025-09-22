@@ -50,37 +50,97 @@ header h1 {
 }
 
 .section-title {
-    font-size: 1.5rem;
-    margin: 2rem 0 1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--primary-color);
-    color: var(--primary-color);
-    position: sticky;
-    top: 48px;
-    background: #121212;
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
+    padding: 0.25rem 0;
+    color: var(--text-primary);
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 10;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid transparent;
+    width: fit-content;
+}
+
+.section-title:hover {
+    background: none;
+    border-bottom-color: currentColor;
+    opacity: 0.8;
 }
 
 .section-title[data-type="apple-music"] {
     color: #f0233b !important;
-    border-bottom-color: #f0233b !important;
+    border-left: none !important;
+}
+
+.section-title[data-type="apple-music"]:hover {
+    border-bottom-color: #f0233b;
 }
 
 .section-title[data-type="spotify"] {
     color: #1DB954 !important;
-    border-bottom-color: #1DB954 !important;
+    border-left: none !important;
+}
+
+.section-title[data-type="spotify"]:hover {
+    border-bottom-color: #1DB954;
+}
+
+.section-title::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    margin-left: 0.75em;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-45deg);
+    padding: 3px;
+}
+
+.section-title[data-type="apple-music"]::after {
+    border-color: #f0233b;
+}
+
+.section-title[data-type="spotify"]::after {
+    border-color: #1DB954;
+}
+
+.section-title.collapsed::after {
+    transform: rotate(45deg);
+    margin-top: 0;
 }
 
 .playlists-grid {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 0.25rem;
 }
 
 .playlists-section {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 2rem;
+    gap: 1rem;
+    margin: 0;
+    overflow: hidden;
+    max-height: 5000px;
+    transition: max-height 0.5s ease-in-out, opacity 0.3s ease, margin 0.3s ease, padding 0.3s ease;
+    opacity: 1;
+    padding: 0.5rem 0 1rem 0;
+}
+
+.playlists-section.collapsed {
+    max-height: 0;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
 }
 
 .playlist-card {

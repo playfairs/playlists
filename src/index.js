@@ -52,11 +52,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const getSectionTitle = (type) => {
             const titles = {
-                'spotify': 'Spotify Playlists',
-                'apple-music': 'Apple Music Playlists',
-                'other': 'Other Playlists'
+                'spotify': 'Spotify',
+                'apple-music': 'Apple Music',
+                'other': 'Other'
             };
-            return titles[type] || `${type.charAt(0).toUpperCase() + type.slice(1)} Playlists`;
+            return titles[type] || `${type.charAt(0).toUpperCase() + type.slice(1)}`;
         };
 
         Object.entries(playlistsByType).forEach(([type, typePlaylists]) => {
@@ -65,11 +65,25 @@ document.addEventListener('DOMContentLoaded', () => {
             const sectionTitle = document.createElement('h2');
             sectionTitle.className = 'section-title';
             sectionTitle.textContent = getSectionTitle(type);
-            sectionTitle.dataset.type = type;  
+            sectionTitle.dataset.type = type;
+            sectionTitle.role = 'button';
+            sectionTitle.tabIndex = 0;
+            sectionTitle.setAttribute('aria-expanded', 'true');
+            sectionTitle.setAttribute('aria-controls', `section-${type}`);
+            
+            sectionTitle.addEventListener('click', toggleSection);
+            sectionTitle.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    toggleSection.call(sectionTitle);
+                }
+            });
+            
             playlistsContainer.appendChild(sectionTitle);
             
             const sectionContainer = document.createElement('div');
             sectionContainer.className = 'playlists-section';
+            sectionContainer.id = `section-${type}`;
             sectionContainer.dataset.type = type;
             
             sectionContainer.innerHTML = typePlaylists
@@ -115,5 +129,36 @@ document.addEventListener('DOMContentLoaded', () => {
                 iframe.setAttribute('height', iframe.closest('[data-type="apple-music"]') ? '450' : '352');
             }
         });
+    }
+
+    function toggleSection() {
+        const sectionId = this.getAttribute('aria-controls');
+        const section = document.getElementById(sectionId);
+        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+        
+        this.setAttribute('aria-expanded', !isExpanded);
+        this.classList.toggle('collapsed');
+        
+        if (section) {
+            section.classList.toggle('collapsed');
+            
+            if (!isExpanded) {
+                section.style.visibility = 'visible';
+            } else {
+                
+                section.addEventListener('transitionend', function handler() {
+                    if (section.classList.contains('collapsed')) {
+                        section.style.visibility = 'hidden';
+                    }
+                    section.removeEventListener('transitionend', handler);
+                });
+            }
+            
+            if (!isExpanded) {
+                setTimeout(() => {
+                    this.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }, 10);
+            }
+        }
     }
 });

@@ -1,102 +1,107 @@
 [
-    {
-        "name": "Indie pop / bedroom pop / lo-fi pop / melodic pop / retro / soft rock / alternative pop",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/5QSSpDfYrWlYLfOHy97ecR?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "hyperpop / digicore / trap / internet rap / glitchcore",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6CPLRBKmUIiGrVrf9hbuYn?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "jumpstyle / scenecore / hardstyle / krushfunk / donk / eurodance / sped-up",
-        "type": "apple-music",
-        "embed": "<iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"450\" style=\"width:100%;max-width:660px;overflow:hidden;background:transparent;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/us/playlist/jumpstyle-scenecore-hardstyle-krushfunk-donk-eurodance/pl.u-pMyl15viWz7M9DV\"></iframe>"
-    },
-    {
-        "name": "RAGE RAP / DARKPLUGG / UNDERGROUND HIP HOP / INTERNET RAP / HIP HOP / RAP",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3YI31i99BAJ8BVKUFCAguk?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "x",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3H02Sd7T8xo5I6w5mONk9F?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "rock / hard rock / classic rock / metal / arena ",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3PRZQ0ZNfZRnqrqoodt6mG?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "horrorcore / dark trap / industrial rap / underground / memphis / witch house / punk metal",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/11CKl3zIwPJsbflyoaBMq3?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "$uicideboy$",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3jz2V2ezNScj1pr1zceA9V?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "Kill Yourself",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6XdKqPojaOijOVVL8oUh77?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "я пью водку",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/0d0LwW83qp6CmW7Y33YVgp?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "神",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/7jBkUNJ9pvqtFm09Y6SO7h?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "black ppl music part 2",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/5ou9Z4ZJlfZp0tg56yptdQ?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "black ppl music part 1",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/4OdsgeUCtcTyuyDzZFAm1l?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "black ppl music part 3",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6uhF53u0fHk138OWd7kR87?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "bunderground / dark trap / horrorcore",
-        "type": "apple-music",
-        "embed": "<iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"450\" style=\"width:100%;max-width:660px;overflow:hidden;background:transparent;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/us/playlist/underground-dark-trap-horrorcore/pl.u-55D6X4VH6jRGqbK\"></iframe>"
-    },
-    {
-        "name": "japanese type shit",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/17gdqcqm77l7mHbo5Fq5dT?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "mainstream pop / dance-pop / electro-pop / r&b ",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/0V0mGfQEUmhCEjjS5ddGZ7?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "trip-hop / downtempo / alt electronic / moody vibes / ambient",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/228K7QIxXw4JJQJuJt6D9J?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "Bleach",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/4aB1V1H7DwdEEJSZ5i2ulR?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    },
-    {
-        "name": "Ghostemane ☿",
-        "type": "spotify",
-        "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/4XWYy0CxNXUEcDSnDETXAx?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
-    }
+  {
+    "name": "Indie pop / bedroom pop / lo-fi pop / melodic pop / retro / soft rock / alternative pop",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/5QSSpDfYrWlYLfOHy97ecR?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "hyperpop / digicore / trap / internet rap / glitchcore",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6CPLRBKmUIiGrVrf9hbuYn?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "jumpstyle / scenecore / hardstyle / krushfunk / donk / eurodance / sped-up",
+    "type": "apple-music",
+    "embed": "<iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"450\" style=\"width:100%;max-width:660px;overflow:hidden;background:transparent;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/us/playlist/jumpstyle-scenecore-hardstyle-krushfunk-donk-eurodance/pl.u-pMyl15viWz7M9DV\"></iframe>"
+  },
+  {
+    "name": "RAGE RAP / DARKPLUGG / UNDERGROUND HIP HOP / INTERNET RAP / HIP HOP / RAP",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3YI31i99BAJ8BVKUFCAguk?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "x",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3H02Sd7T8xo5I6w5mONk9F?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "rock / hard rock / classic rock / metal / arena ",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3PRZQ0ZNfZRnqrqoodt6mG?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "horrorcore / dark trap / industrial rap / underground / memphis / witch house / punk metal",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/11CKl3zIwPJsbflyoaBMq3?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "$uicideboy$",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3jz2V2ezNScj1pr1zceA9V?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "Kill Yourself",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6XdKqPojaOijOVVL8oUh77?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "я пью водку",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/0d0LwW83qp6CmW7Y33YVgp?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "神",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/7jBkUNJ9pvqtFm09Y6SO7h?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "black ppl music part 2",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/5ou9Z4ZJlfZp0tg56yptdQ?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "black ppl music part 1",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/4OdsgeUCtcTyuyDzZFAm1l?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "black ppl music part 3",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6uhF53u0fHk138OWd7kR87?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "bunderground / dark trap / horrorcore",
+    "type": "apple-music",
+    "embed": "<iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"450\" style=\"width:100%;max-width:660px;overflow:hidden;background:transparent;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/us/playlist/underground-dark-trap-horrorcore/pl.u-55D6X4VH6jRGqbK\"></iframe>"
+  },
+  {
+    "name": "japanese type shit",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/17gdqcqm77l7mHbo5Fq5dT?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "mainstream pop / dance-pop / electro-pop / r&b ",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/0V0mGfQEUmhCEjjS5ddGZ7?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "trip-hop / downtempo / alt electronic / moody vibes / ambient",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/228K7QIxXw4JJQJuJt6D9J?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "Bleach",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/4aB1V1H7DwdEEJSZ5i2ulR?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "Ghostemane ☿",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/4XWYy0CxNXUEcDSnDETXAx?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  {
+    "name": "liminalcore/psychological/noise/dreamwave/dissociative/ethereal/ambient/decay/melancholy/surrealism",
+    "type": "spotify",
+    "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6GyhpoZO9crH4xlzrkjJFO?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  }
 ]

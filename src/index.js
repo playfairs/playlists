@@ -1,7 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
     const playlistsContainer = document.getElementById('playlists-container');
+    const categoryNav = document.getElementById('categoryNav');
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    let allPlaylists = [];
+    let uniqueCategories = new Set(['all']);
     
     playlistsContainer.innerHTML = '<div class="loading">Loading playlists...</div>';
+    
+    if (mobileMenuBtn) {
+        mobileMenuBtn.addEventListener('click', () => {
+            categoryNav.classList.toggle('active');
+        });
+    }
 
     fetch('./src/playlist.json')
         .then(response => {
@@ -14,6 +24,16 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!Array.isArray(playlists)) {
                 throw new Error('Invalid playlist data: expected an array');
             }
+            allPlaylists = playlists;
+            
+            playlists.forEach(playlist => {
+                if (playlist.category) {
+                    uniqueCategories.add(playlist.category.toLowerCase());
+                }
+            });
+            
+            createCategoryButtons();
+            
             renderPlaylists(playlists);
         })
         .catch(error => {
@@ -25,6 +45,87 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>`;
         });
 
+    function countPlaylistsInCategory(category) {
+        if (category === 'all') return allPlaylists.length;
+        return allPlaylists.filter(playlist => 
+            playlist.category && playlist.category.toLowerCase() === category
+        ).length;
+    }
+    
+    function createCategoryButtons() {
+        categoryNav.innerHTML = '';
+        
+        const allButton = document.createElement('button');
+        allButton.className = 'nav-btn active';
+        allButton.innerHTML = `All <span class="category-count">${allPlaylists.length}</span>`;
+        allButton.dataset.category = 'all';
+        allButton.addEventListener('click', (e) => handleCategoryClick(e, 'all'));
+        categoryNav.appendChild(allButton);
+        
+        const categories = Array.from(uniqueCategories).filter(cat => cat !== 'all');
+        
+        const categoryOrder = ['genre', 'artist', 'record-label'];
+        categories.sort((a, b) => {
+            const aIndex = categoryOrder.indexOf(a);
+            const bIndex = categoryOrder.indexOf(b);
+            
+            if (aIndex === -1 && bIndex === -1) return a.localeCompare(b);
+            if (aIndex === -1) return 1;
+            if (bIndex === -1) return -1;
+            return aIndex - bIndex;
+        });
+        
+        categories.forEach(category => {
+            const button = document.createElement('button');
+            button.className = 'nav-btn';
+            
+            const displayName = category
+                .split('-')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join(' ');
+            
+            const count = countPlaylistsInCategory(category);
+            button.innerHTML = `${displayName} <span class="category-count">${count}</span>`;
+            button.dataset.category = category;
+            button.addEventListener('click', (e) => handleCategoryClick(e, category));
+            categoryNav.appendChild(button);
+        });
+    }
+    
+    function handleCategoryClick(event, category) {
+        document.querySelectorAll('.nav-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        event.target.classList.add('active');
+        
+        filterPlaylists(category);
+        
+        categoryNav.classList.remove('active');
+    }
+    
+    function filterPlaylists(category) {
+        let filteredPlaylists = [...allPlaylists];
+        
+        if (category !== 'all') {
+            filteredPlaylists = allPlaylists.filter(playlist => {
+                if (playlist.category) {
+                    return playlist.category.toLowerCase() === category;
+                }
+                const name = playlist.name.toLowerCase();
+                return name.includes(category);
+            });
+        }
+        
+        if (filteredPlaylists.length === 0) {
+            playlistsContainer.innerHTML = `
+                <div class="no-playlists">
+                    <p>No playlists found in the ${category} category.</p>
+                </div>`;
+        } else {
+            renderPlaylists(filteredPlaylists);
+        }
+    }
+    
     function renderPlaylists(playlists) {
         if (!playlists || !Array.isArray(playlists) || playlists.length === 0) {
             playlistsContainer.innerHTML = '<div class="no-playlists">No playlists found in the JSON file.</div>';

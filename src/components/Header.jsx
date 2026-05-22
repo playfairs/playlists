@@ -11,7 +11,7 @@ function Header() {
         </nav>
       </div>
       <div className="header-right">
-        <a href="/src/playlist.json" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ padding: '0.5rem 1rem', fontSize: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+        <a href="/src/playlist.json" target="_blank" rel="noopener noreferrer" className="btn btn-secondary icon-only-mobile" style={{ padding: '0.5rem 1rem', fontSize: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
           <FaCode size={14} />
           <span>JSON</span>
         </a>
@@ -23,7 +23,7 @@ function Header() {
           <FaSpotify size={14} />
           <span>Spotify</span>
         </a>
-        <a href="https://github.com/playfairs/playlists" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ padding: '0.5rem 1rem', fontSize: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+        <a href="https://github.com/playfairs/playlists" target="_blank" rel="noopener noreferrer" className="btn btn-secondary icon-only-mobile" style={{ padding: '0.5rem 1rem', fontSize: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
           <FaGithub size={14} />
           <span>Source</span>
         </a>

@@ -109,11 +109,14 @@ body {
     color: var(--text-secondary);
     font-weight: 500;
     font-size: 0.8rem;
-    transition: color 0.2s ease;
+    transition: all 0.2s ease;
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--border-radius-sm);
 }
 
 .nav-link:hover {
     color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.05);
 }
 
 .breadcrumb {
@@ -640,3 +643,163 @@ body {
         font-size: 0.75rem;
     }
 }
+
+.taste-section {
+    padding: 7rem 2rem 2rem 2rem;
+}
+
+.taste-title {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+}
+
+.taste-description {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    max-width: 600px;
+    margin-bottom: 1.5rem;
+}
+
+.taste-stats {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.taste-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.taste-stat-number {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.taste-stat-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.taste-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.taste-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1.25rem;
+    background: #000;
+    border-bottom: 1px solid var(--border-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.taste-item-header:hover {
+    background: #111;
+}
+
+.taste-item-header.active {
+    background: #111;
+}
+
+.taste-item-name {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.taste-arrow-icon {
+    color: var(--text-muted);
+    transition: transform 0.2s ease;
+}
+
+.taste-item-header.active .taste-arrow-icon {
+    transform: rotate(90deg);
+}
+
+.taste-item-details {
+    display: none;
+    background: #000;
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+}
+
+.taste-item-details.active {
+    display: block;
+}
+
+.taste-detail-row {
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.taste-detail-row:last-child {
+    border-bottom: none;
+}
+
+.taste-detail-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.taste-detail-value {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.taste-detail-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.taste-detail-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.taste-detail-list li {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.taste-detail-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--text-muted);
+}
+
+.taste-detail-tag {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--border-radius-sm);
+} 

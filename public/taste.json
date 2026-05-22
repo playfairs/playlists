@@ -1,0 +1,237 @@
+[
+  {
+    "type": "artist",
+    "name": "$uicideboy$",
+    "genres": ["Horrorcore", "Dark Trap", "Memphis Rap"],
+    "favorite_albums": [
+      "I Want to Die in New Orleans",
+      "Long Term Effects of SUFFERING",
+      "Dark Side of the Cloud",
+      "DIRTIERNASTIER$UCIDE",
+      "DIRTIESTNASTIEST$UICIDE",
+      "Eternal Grey",
+      "Gray/Grey",
+      "KILL YOURSELF Part X: The Resurrection Saga",
+      "NEW WORLD DEPRESSION",
+      "Sing Me a Lullaby, My Sweet Temptation",
+      "YUNGDEATHLILLIFE"
+    ]
+  },
+  {
+    "type": "artist",
+    "name": "Ghostemane",
+    "genres": ["Horrorcore", "Black metal"],
+    "favorite_albums": [
+      "Plagues",
+      "Oogabooga",
+      "Blackmage",
+      "N/O/I/S/E",
+      "For the Aspirin Occultist",
+      "Hexada",
+      "Rituals"
+    ]
+  },
+  {
+    "type": "artist",
+    "name": "ilyhiryu",
+    "genres": ["Jumpstyle"],
+    "favorite_albums": [
+      "alandforbirds.qaz",
+      "Verminds Project",
+      "rare_media"
+    ]
+  },
+  {
+    "type": "artist",
+    "name": "Night Lovell",
+    "genres": ["Horrorcore", "Underground Rap", "Dark Trap"],
+    "favorite_albums": [
+      "Concept Vague",
+      "Goodnight Lovell",
+      "I HOPE YOU'RE HAPPY",
+      "Red Teenage Melody",
+      "Just Say You Don't Care"
+    ]
+  },
+  {
+    "type": "artist",
+    "name": "BONES",
+    "genres": ["Underground Rap"],
+    "favorite_albums": [
+      "CARCASS",
+      "DeadBoy",
+      "DeathBecomesHim",
+      "IFeelLikeDirt",
+      "InLovingMemory",
+      "NetworkUnknown",
+      "NoRedeemingQualities",
+      "OFFLINE",
+      "PaidProgramming",
+      "Powder",
+      "UNRENDERED"
+    ]
+  },
+  {
+    "type": "genre",
+    "name": "Breakcore",
+    "subgenres": [
+      "Lolicore",
+      "Speedcore",
+      "Rhythmic Noise",
+      "Digital Hardcore"
+    ],
+    "favorite_artists": [
+      "Machine Girl",
+      "Goreshit",
+      "Shoebill",
+      "Sewerslvt",
+      "Golden Boy"
+    ]
+  },
+  {
+    "type": "genre",
+    "name": "Horrorcore",
+    "subgenres": [
+      "Dark Trap",
+      "Memphis Rap",
+      "Phonk",
+      "Cloud Rap"
+    ],
+    "favorite_artists": [
+      "$uicideboy$",
+      "Pouya",
+      "BONES",
+      "Ghostemane",
+      "JGRXXN",
+      "Night Lovell",
+      "Bleed The Wicked Menace",
+      "MAKAVELIGODD"
+    ]
+  },
+  {
+    "type": "genre",
+    "name": "Alternative Rock",
+    "subgenres": [
+      "Grunge",
+      "Nu Metal",
+      "Shoegaze",
+      "Post-Grunge",
+      "Alternative Metal",
+      "Emo Rock"
+    ],
+    "favorite_artists": [
+      "Deftones",
+      "Radiohead",
+      "Evanescence",
+      "Nirvana",
+      "Twenty One Pilots",
+      "Linkin Park",
+      "My Chemical Romance",
+      "Alice in Chains",
+      "Pierce the Veil",
+      "Sleep Token"
+    ]
+  },
+  {
+    "type": "genre",
+    "name": "Dance",
+    "subgenres": [
+      "Jumpstyle",
+      "Dancecore",
+      "Hands Up",
+      "Yabujin-core",
+      "Hardstyle Shuffle"
+    ],
+    "favorite_artists": [
+      "77yolan",
+      "ilyhiryu",
+      "Yabujin",
+      "DJ Gollum",
+      "Cascada"
+    ]
+  },
+  {
+    "type": "genre",
+    "name": "Gabber",
+    "subgenres": [
+      "Hardtekk",
+      "Hardstyle",
+      "Hard Tekno",
+      "Frenchcore",
+      "Uptempo",
+      "Terrorcore",
+      "Schranz",
+      "Industrial"
+    ],
+    "favorite_artists": [
+      "999999999",
+      "Cortex_Sound",
+      "DJ DR4GM4SHROOM",
+      "DJ ZUP RAlii",
+      "Fabitekk",
+      "EL$E",
+      "grindgwap",
+      "HELLBLADE",
+      "juno",
+      "I Hate Models",
+      "Technoboy"
+    ]
+  },
+  {
+    "type": "genre",
+    "name": "Electronic",
+    "subgenres": [
+      "Witch House",
+      "Dark Electro",
+      "Industrial",
+      "EBM"
+    ],
+    "favorite_artists": [
+      "Crystal Castles",
+      "Mr.Kitty",
+      "Sidewalks and Skeletons",
+      "Pastel Ghost",
+      "HEALTH",
+      "Deadmou5"
+    ]
+  },
+  {
+    "type": "genre",
+    "name": "Experimental Internet Music",
+    "subgenres": [
+      "Sigilkore",
+      "Webcore",
+      "Glitchcore",
+      "Digicore"
+    ],
+    "favorite_artists": [
+      "Yabujin",
+      "Jane Remover",
+      "quinn",
+      "6arelyhuman",
+      "asteria",
+      "axxturel / luci4"
+    ]
+  },
+  {
+    "type": "genre",
+    "name": "Jugg",
+    "subgenres": [
+      "Nectro Trap",
+      "Soundcloud Rap",
+      "Plugg",
+      "Pluggnb",
+      "Dark Plugg",
+      "Underground Rap",
+      "Cloud Trap"
+    ],
+    "favorite_artists": [
+      "i wont go into a kastle",
+      "5027FEDERATION",
+      "Predayed",
+      "ihateflexin",
+      "tampa",
+      "ocelot"
+    ]
+  }
+]

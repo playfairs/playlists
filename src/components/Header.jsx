@@ -1,4 +1,5 @@
 import { FaLastfm, FaSpotify, FaGithub, FaCode } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -7,7 +8,9 @@ function Header() {
         <nav className="nav">
           <a href="https://playfairs.cc" target="_blank" rel="noopener noreferrer" className="nav-link breadcrumb">playfairs.cc</a>
           <span className="breadcrumb-separator">/</span>
-          <a href="/" className="nav-link breadcrumb-current">playlists</a>
+          <Link to="/" className="nav-link">playlists</Link>
+          <span className="breadcrumb-separator">/</span>
+          <Link to="/my-taste" className="nav-link">my taste</Link>
         </nav>
       </div>
       <div className="header-right">

@@ -7,7 +7,7 @@ function Header() {
         <nav className="nav">
           <a href="https://playfairs.cc" target="_blank" rel="noopener noreferrer" className="nav-link breadcrumb">playfairs.cc</a>
           <span className="breadcrumb-separator">/</span>
-          <a href="#playlists" className="nav-link breadcrumb-current">playlists</a>
+          <a href="/" className="nav-link breadcrumb-current">playlists</a>
         </nav>
       </div>
       <div className="header-right">

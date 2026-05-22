@@ -1,260 +1,346 @@
 [
   {
+    "id": "indie-pop-bedroom-pop",
     "name": "Indie pop / bedroom pop / lo-fi pop / melodic pop / retro / soft rock / alternative pop",
     "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/5QSSpDfYrWlYLfOHy97ecR?si=f53622addfd44785",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/5QSSpDfYrWlYLfOHy97ecR?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "hyperpop-digicore-trap",
     "name": "hyperpop / digicore / trap / internet rap / glitchcore",
     "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/6CPLRBKmUIiGrVrf9hbuYn?si=0dec55c186af4cc5",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6CPLRBKmUIiGrVrf9hbuYn?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
-    "name": "jumpstyle / scenecore / hardstyle / krushfunk / donk / eurodance / sped-up",
-    "type": "apple-music",
+    "id": "jumpstyle-scenecore-hardstyle",
+    "name": "jumpstyle / scenecore / krushfunk / glitchcore",
+    "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/0wCxEAnJbV9ecwq4sSNd8x?si=bdd9aa74875942c9",
     "embed": "<iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"450\" style=\"width:100%;max-width:660px;overflow:hidden;background:transparent;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/us/playlist/jumpstyle-scenecore-hardstyle-krushfunk-donk-eurodance/pl.u-pMyl15viWz7M9DV\"></iframe>"
   },
   {
-    "name": "RAGE RAP / DARKPLUGG / UNDERGROUND HIP HOP / INTERNET RAP / HIP HOP / RAP",
+    "id": "rage-rap-darkplugg",
+    "name": "rage-rap / dark-plugg / underground-hip-hop / internet-rap / hip-hop / rap / hardstyle",
     "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/3YI31i99BAJ8BVKUFCAguk?si=6b4f0244dbac4089",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3YI31i99BAJ8BVKUFCAguk?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
-    "name": "x",
+    "id": "eyes",
+    "name": "rip your eyes out and go fucking insane",
     "type": "spotify",
     "category": "mixed",
+    "url": "https://open.spotify.com/playlist/3H02Sd7T8xo5I6w5mONk9F?si=3546e6abb862440a",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3H02Sd7T8xo5I6w5mONk9F?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "rock-hard-rock-classic-rock",
     "name": "rock / hard rock / classic rock / metal / arena ",
     "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/3PRZQ0ZNfZRnqrqoodt6mG?si=18ce7b69eb9d4581",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3PRZQ0ZNfZRnqrqoodt6mG?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
-    "name": "horrorcore / dark trap / industrial rap / underground / memphis / witch house / punk metal",
+    "id": "horrorcore-dark-trap",
+    "name": "underground-hip-hop / memphis / phonk / dark-trap / horrorcore / industrial / trap-metal / experimental / cloud",
     "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/11CKl3zIwPJsbflyoaBMq3?si=d782f0dd13824648",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/11CKl3zIwPJsbflyoaBMq3?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "suicideboys",
     "name": "$uicideboy$",
     "type": "spotify",
     "category": "artist",
+    "url": "https://open.spotify.com/playlist/3jz2V2ezNScj1pr1zceA9V?si=65abc42e3ec64cfe",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3jz2V2ezNScj1pr1zceA9V?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "kill-yourself",
     "name": "Kill Yourself",
     "type": "spotify",
     "category": "artist",
+    "url": "https://open.spotify.com/playlist/6XdKqPojaOijOVVL8oUh77?si=7a5fcd24713c4a0a",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6XdKqPojaOijOVVL8oUh77?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
-    "name": "я пью водку",
+    "id": "ya-pyu-vodku",
+    "name": "russian / rap / witch-house / dark-trap",
     "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/0d0LwW83qp6CmW7Y33YVgp?si=8874eb5731494d69",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/0d0LwW83qp6CmW7Y33YVgp?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "kami",
     "name": "神",
     "type": "spotify",
     "category": "mixed",
+    "url": "https://open.spotify.com/playlist/510hTq9JSMS8EJN0nLAUmB?si=ce6ef80de61d4fcb",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/7jBkUNJ9pvqtFm09Y6SO7h?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "black-ppl-music-part-2",
     "name": "black ppl music part 2",
     "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/5ou9Z4ZJlfZp0tg56yptdQ?si=7daae72376654c46",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/5ou9Z4ZJlfZp0tg56yptdQ?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "black-ppl-music-part-1",
     "name": "black ppl music part 1",
     "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/4OdsgeUCtcTyuyDzZFAm1l?si=c83bfe337c3a4c65",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/4OdsgeUCtcTyuyDzZFAm1l?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "black-ppl-music-part-3",
     "name": "black ppl music part 3",
     "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/6uhF53u0fHk138OWd7kR87?si=04e21232ba4f49ff",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6uhF53u0fHk138OWd7kR87?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "bunderground-dark-trap-horrorcore",
     "name": "bunderground / dark trap / horrorcore",
     "type": "apple-music",
     "category": "genre",
+    "url": null,
     "embed": "<iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"450\" style=\"width:100%;max-width:660px;overflow:hidden;background:transparent;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/us/playlist/underground-dark-trap-horrorcore/pl.u-55D6X4VH6jRGqbK\"></iframe>"
   },
   {
+    "id": "japanese-type-shit",
     "name": "japanese type shit",
     "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/17gdqcqm77l7mHbo5Fq5dT?si=55cda5d9bd83424c",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/17gdqcqm77l7mHbo5Fq5dT?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "mainstream-pop-dance-pop",
     "name": "mainstream pop / dance-pop / electro-pop / r&b ",
     "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/0V0mGfQEUmhCEjjS5ddGZ7?si=7960089dfdfc4c3a",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/0V0mGfQEUmhCEjjS5ddGZ7?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "trip-hop-downtempo",
     "name": "trip-hop / downtempo / alt electronic / moody vibes / ambient",
     "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/228K7QIxXw4JJQJuJt6D9J?si=cf60aafa164341ac",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/228K7QIxXw4JJQJuJt6D9J?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
-    "name": "Bleach",
+    "id": "bleach",
+    "name": "BLEACH",
     "type": "spotify",
     "category": "ost",
+    "url": "https://open.spotify.com/playlist/4aB1V1H7DwdEEJSZ5i2ulR?si=b5c710aec7ac4d54",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/4aB1V1H7DwdEEJSZ5i2ulR?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "ghostemane",
     "name": "Ghostemane ☿",
     "type": "spotify",
     "category": "artist",
+    "url": "https://open.spotify.com/playlist/4XWYy0CxNXUEcDSnDETXAx?si=597791db19074050",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/4XWYy0CxNXUEcDSnDETXAx?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "liminalcore-psychological",
     "name": "liminalcore/psychological/noise/dreamwave/dissociative/ethereal/ambient/decay/melancholy/surrealism",
     "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/6GyhpoZO9crH4xlzrkjJFO?si=29bf07f857c14f52",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6GyhpoZO9crH4xlzrkjJFO?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "haunted-mound",
     "name": "Haunted Mound",
     "type": "spotify",
     "category": "record-label",
+    "url": "https://open.spotify.com/playlist/2WFy4hIXEdEAK55wYZs5oI?si=d8f639d09fdd47ca",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/2WFy4hIXEdEAK55wYZs5oI?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "grey-59",
     "name": "Grey 59",
     "type": "spotify",
     "category": "record-label",
+    "url": "https://open.spotify.com/playlist/1VkDIgxNwk8Ss1uWqrFofj?si=9401f66b2e7645fc",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/1VkDIgxNwk8Ss1uWqrFofj?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "gacha-bangers",
     "name": "Gacha bangers",
     "type": "spotify",
     "category": "genre",
+    "url": "https://open.spotify.com/playlist/3GjmhHR5FsiBdUOrXPNLP5?si=6667c8d9c3814218",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3GjmhHR5FsiBdUOrXPNLP5?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "yin-yang-tapes",
     "name": "YIN YANG TAPES: All Seasons",
     "type": "spotify",
     "category": "artist",
+    "url": "https://open.spotify.com/playlist/7IK6z4QZthw1HJUZRH2oZu?si=7e299b98377c465e",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/7IK6z4QZthw1HJUZRH2oZu?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "demon-unit-xiii",
     "name": "DEMON UNIT XIII",
     "type": "spotify",
     "category": "artist",
+    "url": "https://open.spotify.com/playlist/54Jh7tXVrpVASNRmbNzHm7?si=3e9584a4999144e0",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/54Jh7tXVrpVASNRmbNzHm7?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-isq",
     "name": "All of ISQ",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/40NO73SSC08v4IqS5BPxL8?si=ce2add0c3b8a40b0",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/40NO73SSC08v4IqS5BPxL8?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-ilyhiryu",
     "name": "All of ilyhiryu",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/3gDC6BlnfhY1DsWjI7cxxm?si=cc28db100ac54edb",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3gDC6BlnfhY1DsWjI7cxxm?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-godhandusa",
     "name": "All of GODHANDUSA",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/39FhqRfBXc9aCbcEiSh1hM?si=14d61b2cd9e14d7a",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/39FhqRfBXc9aCbcEiSh1hM?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-playboi-carti",
     "name": "All of Playboi Carti",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/49DlRV2CBTxm7Eu17hnoyD?si=40b074c9d0334241",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/49DlRV2CBTxm7Eu17hnoyD?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-destroy-lonely",
     "name": "All of Destroy Lonely",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/5YVbzRgPRY8KQ9fnpUCBpX?si=52e5cf2c95da44f6",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/5YVbzRgPRY8KQ9fnpUCBpX?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-bones",
     "name": "All of BONES",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/1qlffZHJc3VovamYDhjQlG?si=d09aef8ebcb34021",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/1qlffZHJc3VovamYDhjQlG?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-suicideboys",
     "name": "All of $uicideboy$",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/6r2mjFuP0a3UrO8vhqNXaz?si=0ccc5172dfc04377",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6r2mjFuP0a3UrO8vhqNXaz?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-ghostemane",
     "name": "All of Ghostemane",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/6Vlx7jsSmWZEfwVeX4GdQs?si=99c8f7d238084687",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/6Vlx7jsSmWZEfwVeX4GdQs?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-jgrxxn",
     "name": "All of JGRXXN",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/7Ffbw1O3aaugNUXnkrECje?si=42fa24ac5f7b4088",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/7Ffbw1O3aaugNUXnkrECje?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-makaveligodd",
     "name": "All of MAKAVELIGODD",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/4DwzyzCIwWEhazXgibNWCX?si=4935f5d550b44cc0",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/4DwzyzCIwWEhazXgibNWCX?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-asap-rocky",
     "name": "All of A$AP Rocky",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/7lYliSJ4DrIfDyt0fEaLwm?si=354df3a5178a40fb",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/7lYliSJ4DrIfDyt0fEaLwm?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-ken-carson",
     "name": "All of Ken Carson",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/58EpMaz4ZmnptD8RrcwMg0?si=9173356d0dea4a7f",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/58EpMaz4ZmnptD8RrcwMg0?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-siouxxie-sixxsta",
     "name": "All of Siouxxie Sixxsta",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/78x57hBUZGpMexVg9vo6Cd?si=96b8c6da59ce4712",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/78x57hBUZGpMexVg9vo6Cd?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-bleed-the-wicked-menace",
     "name": "All of Bleed the Wicked Menace",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/62EHXj0PdF1lJyfQe0KMUG?si=f4433afc7bf449c8",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/62EHXj0PdF1lJyfQe0KMUG?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-nirvana",
     "name": "All of Nirvana",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/2LwIOuz4AZUMGMbwJgzsXv?si=ff6fea91455f404f",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/2LwIOuz4AZUMGMbwJgzsXv?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-travis-scott",
     "name": "All of Travis Scott",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/7ED2uL3Kv8idfPD5X4BeXO?si=3c54f092bfe74cfc",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/7ED2uL3Kv8idfPD5X4BeXO?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   },
   {
+    "id": "all-of-prxjek",
     "name": "All of PRXJEK",
     "type": "spotify",
     "category": "all-of-{artist}",
+    "url": "https://open.spotify.com/playlist/3vsmy6jWNUzWsgFNJItiOH?si=19a379808aa44385",
     "embed": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/playlist/3vsmy6jWNUzWsgFNJItiOH?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
   }
 ]

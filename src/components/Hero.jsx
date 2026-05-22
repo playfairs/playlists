@@ -4,7 +4,7 @@ function Hero() {
   const [totalPlaylists, setTotalPlaylists] = useState('Loading...');
 
   useEffect(() => {
-    fetch('/src/playlist.json')
+    fetch('/playlist.json')
       .then(response => response.json())
       .then(playlists => {
         setTotalPlaylists(`${playlists.length} playlists`);

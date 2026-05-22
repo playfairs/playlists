@@ -11,7 +11,7 @@ function Header() {
         </nav>
       </div>
       <div className="header-right">
-        <a href="/src/playlist.json" target="_blank" rel="noopener noreferrer" className="btn btn-secondary icon-only-mobile" style={{ padding: '0.5rem 1rem', fontSize: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+        <a href="/playlist.json" target="_blank" rel="noopener noreferrer" className="btn btn-secondary icon-only-mobile" style={{ padding: '0.5rem 1rem', fontSize: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
           <FaCode size={14} />
           <span>JSON</span>
         </a>

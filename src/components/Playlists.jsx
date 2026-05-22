@@ -7,7 +7,7 @@ function Playlists() {
   const [expandedCategories, setExpandedCategories] = useState({});
 
   useEffect(() => {
-    fetch('/src/playlist.json')
+    fetch('/playlist.json')
       .then(response => response.json())
       .then(data => {
         setPlaylists(data);
